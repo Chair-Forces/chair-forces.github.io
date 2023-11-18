@@ -8,14 +8,14 @@ const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
   firstName: "Chair",
   middleName: "",
-  lastName: "Forc.es",
-  message: "as BRRRRRRRRRT my last email",
+  lastName: "Forc.es™",
+  message: "as BRRRRT my last email",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/ChairForces/",
     },
-    {
+    /*{
       image: "fa-facebook",
       url: "https://www.facebook.com/hashirshoaeb",
     },
@@ -30,7 +30,7 @@ const mainBody = {
     {
       image: "fa-twitter",
       url: "https://www.twitter.com/hashirshoaeb/",
-    },
+    },*/
   ],
 };
 
@@ -54,8 +54,8 @@ const about = {
   imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "Harness the force with Chair Forc.es™.",
+/*  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",*/
 };
 
 // PROJECTS SECTION
@@ -66,8 +66,8 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  gitHubUsername: "ChairForces", //i.e."johnDoe12Gh"
+  reposLength: 0,
   specificRepos: [],
 };
 
@@ -75,18 +75,18 @@ const repos = {
 const leadership = {
   show: false,
   heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+  /* message:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",*/
   images: [
     { 
       img: require("../editable-stuff/hashirshoaeb.png"), 
       label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      /*paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."*/ 
     },
     { 
       img: require("../editable-stuff/hashirshoaeb.png"), 
       label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      /*paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." */
     },
   ],
   imageSize: {
