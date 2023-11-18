@@ -8,29 +8,29 @@ const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
   firstName: "Chair",
   middleName: "",
-  lastName: "Forc.es™",
-  message: "as BRRRRT my last email",
+  lastName: "Forc.es",
+  message: "As BRRRRRT my last email.  Passionate about your comfort.",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/ChairForces/",
+      url: "https://github.com/chairforces",
     },
-    /*{
+    {
       image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://www.facebook.com/",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
-    },*/
+      url: "https://www.twitter.com/",
+    },
   ],
 };
 
@@ -50,12 +50,12 @@ const mainBody = {
 
 const about = {
   show: true,
-  heading: "About Me",
+  heading: "About",
   imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
   message:
-    "Harness the force with Chair Forc.es™.",
-/*  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",*/
+    "Building only the most comfortable work stuff you never knew you needed.",
+  resume: "https://docs.google.com/",
 };
 
 // PROJECTS SECTION
@@ -66,8 +66,8 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "ChairForces", //i.e."johnDoe12Gh"
-  reposLength: 0,
+  gitHubUsername: "chairforces", //i.e."johnDoe12Gh"
+  reposLength: 4,
   specificRepos: [],
 };
 
@@ -75,18 +75,18 @@ const repos = {
 const leadership = {
   show: false,
   heading: "Leadership",
-  /* message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",*/
+  message:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
       img: require("../editable-stuff/hashirshoaeb.png"), 
       label: "First slide label", 
-      /*paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."*/ 
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
       img: require("../editable-stuff/hashirshoaeb.png"), 
       label: "Second slide label", 
-      /*paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." */
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
   ],
   imageSize: {
@@ -98,26 +98,26 @@ const leadership = {
 // SKILLS SECTION
 const skills = {
   show: true,
-  heading: "Skills",
+  heading: "Benefits",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Comfort", value: 100 },
+    { name: "Style", value: 75 },
+    { name: "Boss jealousy", value: 95 },
+    // { name: "C/C++", value: 65 },
+    // { name: "JavaScript", value: 90 },
+    // { name: "React", value: 65 },
+    // { name: "HTML/CSS", value: 55 },
+    // { name: "C#", value: 80 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Work expense", value: 25 },
+    // { name: "Collaboration", value: 90 },
+    // { name: "Positivity", value: 75 },
+    // { name: "Adaptability", value: 85 },
+    // { name: "Problem Solving", value: 75 },
+    // { name: "Empathy", value: 90 },
+    // { name: "Organization", value: 70 },
+    // { name: "Creativity", value: 90 },
   ],
 };
 
