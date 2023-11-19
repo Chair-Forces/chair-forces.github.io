@@ -39,7 +39,7 @@ const Home = React.forwardRef((props, ref) => {
           message={about.message}
           link={about.imageLink}
           imgSize={about.imageSize}
-          resume={about.resume}
+        //  resume={about.resume}
         />
       )}
       {
@@ -47,7 +47,7 @@ const Home = React.forwardRef((props, ref) => {
           <Experience experiences={experiences}/>
         )
       }
-      {repos.show && (
+      {repos.false && (
         <Project
           heading={repos.heading}
           username={repos.gitHubUsername}
