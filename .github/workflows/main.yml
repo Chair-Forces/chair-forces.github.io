@@ -1,16 +1,29 @@
-jobs:
-  deploy:
-    name: Deploy GitHub Pages
-    runs-on: ubuntu-latest
+name: Deploy GitHub Pages
+on: push
 
+jobs:
+  build:
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Install jq nodejs pnpm tool
+      run: |
+        sudo apt-get update
+        sudo apt-get install jq nodejs pnpm
 
     - name: Build site 
-      run: npm run build
+      run: pnpm run build
 
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3  
+      uses: chairforces/home
       with:
         deploy_key: ${{ secrets.-----BEGIN OPENSSH PRIVATE KEY-----b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZWQyNTUxOQAAACCm/xDQ26QkVGO4Z3FUsbSYU7XLTlAQyBA8LlnejQx94AAAAKCJvMUmibzFJgAAAAtzc2gtZWQyNTUxOQAAACCm/xDQ26QkVGO4Z3FUsbSYU7XLTlAQyBA8LlnejQx94AAAAEC2XWOzylK9q5EfKKyAdJmppN8a6lYQCgXnaLsNO7102ab/ENDbpCRUY7hncVSxtJhTtctOUBDIEDwuWd6NDH3gAAAAGmRhbmllbHR1Y2tlcnJ1c3RAZ21haWwuY29tAQID-----END OPENSSH PRIVATE KEY-----}}
         publish_dir: ./dist
+
+    - name: deploy
+    - run: pnpm run deploy
+
+    - name: add and commit
+    - run: git add .
+    - run: git commit -a
+    - run: git push
