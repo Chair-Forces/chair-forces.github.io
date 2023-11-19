@@ -1,0 +1,16 @@
+jobs:
+  deploy:
+    name: Deploy GitHub Pages
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Build site 
+      run: npm run build
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3  
+      with:
+        deploy_key: ${{ secrets.-----BEGIN OPENSSH PRIVATE KEY-----b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZWQyNTUxOQAAACCm/xDQ26QkVGO4Z3FUsbSYU7XLTlAQyBA8LlnejQx94AAAAKCJvMUmibzFJgAAAAtzc2gtZWQyNTUxOQAAACCm/xDQ26QkVGO4Z3FUsbSYU7XLTlAQyBA8LlnejQx94AAAAEC2XWOzylK9q5EfKKyAdJmppN8a6lYQCgXnaLsNO7102ab/ENDbpCRUY7hncVSxtJhTtctOUBDIEDwuWd6NDH3gAAAAGmRhbmllbHR1Y2tlcnJ1c3RAZ21haWwuY29tAQID-----END OPENSSH PRIVATE KEY-----}}
+        publish_dir: ./dist
